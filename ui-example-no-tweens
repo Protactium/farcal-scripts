@@ -3,7 +3,7 @@
 
 -- EXAMPLE:
 --[[
-local lib = luau.load(game:HttpGet("https://raw.githubusercontent.com/Protactium/farcal-scripts/refs/heads/main/ui-example-no-tweens"))
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Protactium/farcal-scripts/refs/heads/main/ui-example-no-tweens"))()
 local panel = lib.Panel({
     Title = "Demo Menu",
     Position = { x = 60, y = 60 },
